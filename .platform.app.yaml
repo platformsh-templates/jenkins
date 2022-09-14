@@ -24,7 +24,7 @@ mounts:
 hooks:
     build: |
       export MAVEN_OPTS='-Xmx64m' 
-      wget -q http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+      wget -q https://get.jenkins.io/war-stable/latest/jenkins.war
 
 # The configuration of app when it is exposed to the web.
 # The memory is just to a standard plan.
